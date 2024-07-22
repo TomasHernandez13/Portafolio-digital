@@ -8,6 +8,7 @@ body {
 
 .header {
     text-align: center;
+    margin: 3% auto;
 }
 
 .header-profile__title {
@@ -27,6 +28,7 @@ body {
 }
 
 .header-about {
+    margin-bottom: 3%;
     padding: 30px;
     background-color: white;
 }
@@ -41,6 +43,7 @@ body {
 
 .details {
     margin: 0 auto;
+    margin-bottom: 2%;
     text-align: center;
 }
 
@@ -55,6 +58,8 @@ body {
 
 .skills {
     padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 3%;
 }
 
 .skills__group {
@@ -65,40 +70,101 @@ body {
     margin: 0;
 }
 
+.projects {
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+
+.projects__title {
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+.contact {
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+
+.contact__title {
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.contact-form {
+    display: none;
+    padding: 30px;
+    background-color: white;
+}
+
+.contact-form__group {
+    text-align: center;
+}
+
+.contact-form__label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.contact-form__input {
+    margin-bottom: 18px;
+}
+
+.contact-form__button {
+    padding: 4px 25px;
+    border: black solid 1px;
+}
+
+.footer {
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.817);
+}
+
+.footer__text {
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
 /* Extra Large */
 /* Styles for screens 1200px and wider */
 @media(min-width:1200px) {
-
-    .header {
-        margin: 3% auto;
+    .footer {
+        padding: 30px 0;
     }
-    
+
+    .contact {
+        margin-bottom: 6%;
+    }
 }
 
 /* Large */
 /* Styles for screens between 992px and 1199px */
 @media(min-width:992px) and (max-width:1199px) {
-
-    .header {
-        margin: 3% auto;
+    .contact {
+        margin-bottom: 6%;
     }
-
 }
 
 /* Medium */
 /* Styles for screens between 768px and 991px */
 @media(min-width:768px) and (max-width:991px) {
-     
-    .header {
-        margin: 3% auto;
-    }
-
+    
 }
 
 /* Small */
 /* Styles for screens between 576px and 767px */
 @media(min-width:576px) and (max-width:767px) {
-    
+    .projects {
+        margin-bottom: 6%;
+    }
+
+    .footer {
+        background-color: white;
+    }
+
+    .footer__text {
+        color: black;
+    }
 }
 
 /* Extra Small */
